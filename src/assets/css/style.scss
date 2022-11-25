@@ -1,0 +1,27 @@
+@import url(./reset.scss);
+.main{
+    .container{
+        width: 1400px;
+        margin: 0 auto;
+    }
+    section{
+        width: 100%;
+        height: 100vh;
+    }
+    img{
+        width: 100%;
+        position: relative;
+    }
+    .road{
+        width: 100%;
+        background-image: url('../img/road.png');
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: 1400px auto;
+        height: 200px;
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
